@@ -11,8 +11,9 @@ Its instructions may be found in the document `doc/Twig Education Coding Challen
   * [Example pseudo-code](#requirements)
   * [Programing language](#programing_language)
 * [Solution](#solution)
-  * [Tests](#test)
   * [How to run](#how-to-run)
+  * [Tests](#test)
+
 
 
 ## Problem Statement ##
@@ -38,7 +39,17 @@ The code is written in Python 3.7.1.
 All the application proper is fully contained in the single top-level module `split_array`. 
 Type hints are present in all relevant signatures and basic documentation is included in the code itself.
 
-## Tests
+## Solution ## 
+
+### How to run ###
+
+```
+from split_array import split
+new_array = split([1,2,3,4,5,6,7],2);
+print(new_array.splitter_operator)
+```
+
+### Tests ###
 
 A moderately extensive suite of tests is included in `tests/`. The autodiscovery feature of `unittest` makes it fairly convenient to run them by executing the following command:
  ````
