@@ -26,9 +26,10 @@ Where the size of the original array cannot be divided equally by N, the final p
 to the remainder.
 
 ### Example pseudo-code ###
-
-'groupArrayElements([ 1 , 2 , 3 , 4 , 5 ], 3 );'
-'// [ [ 1, 2 ], [ 3, 4 ], [ 5 ] ]'
+```
+groupArrayElements([ 1 , 2 , 3 , 4 , 5 ], 3 );
+// [ [ 1, 2 ], [ 3, 4 ], [ 5 ] ]
+```
 
 ### Programing language ###
 
