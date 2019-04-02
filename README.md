@@ -55,7 +55,7 @@ print(new_array.splitter_operator)
 A moderately extensive suite of tests is included in `tests/`. The autodiscovery feature of `unittest` makes it fairly convenient to run them by executing the following command:
  ````
 $ git clone https://github.com/VoGood/split_array_challenge
-$ cd super_simple_stocks/
+$ cd split_array_challenge/
 $ python -m unittest -v
 ````
 The `-v` switch is optional and it stands for its verbose mode.
