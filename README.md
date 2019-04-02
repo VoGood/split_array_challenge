@@ -56,7 +56,7 @@ The following tests have been implemented:
    * If size of the original array cannot be divided equally by N, the final part will return length equal
 to the remainder.
    * Test for even split.
-   * Empty the array test.
+   * Empty array test.
    * Test if the splitter is non-integer.
    * Test if the splitter is negative integer.
    * Test for the input array type.
