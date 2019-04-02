@@ -53,19 +53,13 @@ print(new_array.splitter_operator)
 ### Tests ###
 The following tests have been implemented:
 
-   * test_reminder
-        
-   * test_even_split
-
-   * test_empty_list
-    
-   * test_wrong_splitter_type
-    
-   * test_non_postive_splitter
-    
-   * test_non_integer
-    
-   * test_non_list
+   * If size of the original array cannot be divided equally by N, the final part will return length equal
+to the remainder.
+   * Test for even split.
+   * Empty the array test.
+   * Test if the splitter is non-integer.
+   * Test if the splitter is negative integer.
+   * Test for the input array type.
    
 A moderately extensive suite of tests is included in `tests/`. The autodiscovery feature of `unittest` makes it fairly convenient to run them by executing the following command:
  ````
