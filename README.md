@@ -51,7 +51,22 @@ print(new_array.splitter_operator)
 ```
 
 ### Tests ###
+The following tests have been implemented:
 
+   * test_reminder
+        
+   * test_even_split
+
+   * test_empty_list
+    
+   * test_wrong_splitter_type
+    
+   * test_non_postive_splitter
+    
+   * test_non_integer
+    
+   * test_non_list
+   
 A moderately extensive suite of tests is included in `tests/`. The autodiscovery feature of `unittest` makes it fairly convenient to run them by executing the following command:
  ````
 $ git clone https://github.com/VoGood/split_array_challenge
