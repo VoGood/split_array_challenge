@@ -53,8 +53,7 @@ print(new_array.splitter_operator)
 ### Tests ###
 The following tests have been implemented:
 
-   * If size of the original array cannot be divided equally by N, the final part will return length equal
-to the remainder.
+   * Unequal division to returns remainder..
    * Test for even split.
    * Empty array test.
    * Test if the splitter is non-integer.
